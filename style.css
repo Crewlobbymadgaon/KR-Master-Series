@@ -33,12 +33,14 @@ header {
 
 h1 {
   font-size: 2.5rem;
-  line-height: 1.4;
+  line-height: 1.2; /* Tighter spacing */
+  margin-bottom: 0.5rem;
 }
 
 .line1, .line2, .line3 {
   display: block;
   text-shadow: 0 0 10px #ffffff, 0 0 20px #00ffff;
+  margin: 0.2rem 0; /* Controls space between lines */
 }
 
 /* Description below heading */
@@ -127,4 +129,15 @@ footer {
   font-size: 1rem;
   color: #cfeeff;
   text-shadow: 0 0 5px #00ffff;
+}
+.map-link {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  color: #00ffff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.map-link:hover {
+  color: #ffffff;
 }
