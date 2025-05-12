@@ -43,7 +43,7 @@ h1 {
 .line1, .line2, .line3 {
   display: block;
   text-shadow: 0 0 10px #ffffff, 0 0 20px #00ffff;
-  margin: 0.05rem 0; /* Controls space between lines */
+  margin: 0.005rem 0; /* Controls space between lines */
 }
 
 /* Description below heading */
