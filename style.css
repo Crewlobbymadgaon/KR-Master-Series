@@ -21,15 +21,15 @@ body {
 /* Header */
 header {
   text-align: center;
-  padding: 2rem 1rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem;
   position: relative;
 }
 
 .logo {
   width: 120px;
   height: auto;
-  margin-bottom: 1rem;
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3), transparent 50%);
+  margin-bottom: 0.005rem;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3), transparent 90%);
   padding: 0.05rem;
   border-radius: 70%;
 }
