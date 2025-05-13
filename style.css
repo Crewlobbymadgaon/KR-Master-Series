@@ -15,6 +15,7 @@ header {
   padding: 20px;
 }
 
+/* Logo Animation */
 @keyframes logoFadeIn {
   0% {
     opacity: 0;
@@ -28,16 +29,19 @@ header {
 
 .logo {
   animation: logoFadeIn 1s ease-out;
+  animation-fill-mode: forwards;  /* Maintain final size after animation */
+  width: 100px;  /* Set the fixed size */
 }
 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
+@media (min-width: 600px) {
+  .logo {
+    width: 120px;
   }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
+}
+
+@media (min-width: 900px) {
+  .logo {
+    width: 140px;
   }
 }
 
