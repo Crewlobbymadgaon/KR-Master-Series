@@ -30,7 +30,7 @@ header {
 .logo {
   animation: logoFadeIn 1s ease-out;
   animation-fill-mode: forwards;  /* Maintain final size after animation */
-  width: 70px;  /* Set the fixed size */
+  width: 90px;  /* Set the fixed size */
 }
 
 @media (min-width: 600px) {
