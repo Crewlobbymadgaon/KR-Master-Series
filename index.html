@@ -4,54 +4,70 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>KR Masters Series Badminton Tournament 2025</title>
-  <meta name="description" content="KR Masters Series 2025 – A Badminton Tournament exclusively for Railway Running Staff, held at Margao on January 12, 2025.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <img src="logo.png" alt="KR Masters Series 2025 Logo" class="logo" />
+      <img src="logo.png" alt="KR Masters Series Tournament Logo" class="logo" />
       <div class="title-group">
         <h1>KR Masters Series</h1>
-        <h2>Badminton Tournament 2025</h2>
-        <p class="subtitle"><strong>(Exclusively for Railway Running Staff)</strong></p>
+        <h2>Badminton Tournament</h2>
+        <p class="subtitle"><b>(Exclusively for Railway Running Staff)</b></p>
       </div>
     </div>
   </header>
 
+  <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
-      <a href="index.html">Home</a>
-      <a href="register.html">Register</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="results.html">Results</a>
+      <div class="logo-text">KRMS 2025</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="results.html">Results</a>
+      </div>
     </div>
   </nav>
-<section class="hero">
-  <h2>Get Ready for Action!</h2>
-  <p>Join the most awaited badminton event for Railway Running Staff.</p>
-  <a href="register.html" class="btn">Register Now</a>
-</section>
-  <main class="main-content">
-    <section class="info-card">
-      <h3>Venue</h3>
-      <p>Manohar Pareekar Indoor Stadium, Margao – 
-        <a href="https://maps.google.com/?q=Manohar+Pareekar+Indoor+Stadium+Margao" target="_blank">View Map</a>
-      </p>
-    </section>
 
-    <section class="info-card">
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Get Ready for Action!</h2>
+    <p>Join the most awaited badminton event for Railway Running Staff.</p>
+    <a href="register.html" class="btn">Register Now</a>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="info-card">
+      <h3>Venue</h3>
+      <p>Manohar Pareekar Indoor Stadium, Margao<br>
+        <a href="https://maps.google.com/?q=Railway+Indoor+Stadium+Mumbai" target="_blank">(View Map)</a>
+      </p>
+    </div>
+    <div class="info-card">
       <h3>Date</h3>
       <p>12th January 2025</p>
-    </section>
+    </div>
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 KR Masters Series Committee</p>
-    </div>
+    <p>&copy; 2025 KR Masters Series Committee</p>
   </footer>
+
+  <!-- JavaScript for mobile menu -->
+  <script>
+    const toggleButton = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
 
 </body>
 </html>
