@@ -74,7 +74,7 @@ a {
 
 .navbar a {
   position: relative;
-  color: white;
+  color: red;
   font-weight: 600;
   padding: 0.5rem 0;
   transition: color 0.3s;
