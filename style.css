@@ -67,27 +67,26 @@ a {
 
 /* Nav */
 .navbar .container {
-.navbar .container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  background: #263238;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .navbar a {
-  background: transparent;
-  border: 2px solid #f44336;
-  padding: 0.4rem 1rem;
-  border-radius: 50px;
-  font-weight: bold;
-  color: white;
-  transition: 0.3s ease-in-out;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.2rem;
+  background: #37474f;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.3s;
 }
 
 .navbar a:hover {
   background: #f44336;
-  color: white;
 }
-
 /* Hero Banner (Optional) */
 .hero {
   background: url('court-bg.jpg') center/cover no-repeat;
